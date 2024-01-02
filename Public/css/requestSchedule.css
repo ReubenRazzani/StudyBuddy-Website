@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-banner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left-banner {
+    width: 50%;
+    background-color: #1E90FF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.lb-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 30% 50px 100% 50px;
+}
+
+.lb-content .top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.back-button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.back-button:hover {
+    cursor: pointer;
+}
+
+.back-button img {
+    position: relative;
+    top: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+}
+
+.back-button h5 {
+    position: relative;
+    top: 17px;
+    padding-left: 5px;
+    color: #FFF;
+}
+
+.lb-content .top h1 {
+    margin-left: auto;
+    color: #FFF;
+}
+
+hr {
+    position: relative;
+    top: -10px;
+    border: 2px solid #FFF;
+}
+
+.lb-content .bottom h5 {
+    text-align: justify;
+    color: #FFF;
+    font-weight: lighter;
+}
+
+.right-banner {
+    width: 50%;
+}
+
+.rb-content {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 20% 75px 30% 75px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.rb-content .banner {
+    padding: 50px;
+}
+
+.rb-content .banner h3 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.rb-content .banner #email, #password {
+    padding-bottom: 20px;
+}
+
+.continue {
+    padding-top: 35px;
+}
+
+.continue button {
+    width: 100%;
+    padding: 7px 20px;
+    color: #1E90FF;
+    background-color: transparent;
+    border: 2px solid #1E90FF;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.continue button:hover {
+    border: 2px solid transparent;
+    background-color: #1E90FF;
+    color: #FFF;
+}

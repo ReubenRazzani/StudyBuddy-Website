@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: #fff;
+    height: 100px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header nav {
+    height: 100px;
+    margin: 0 100px;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.navbar-username {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-username a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;  
+    color: #000;
+    position: relative;
+    top: -3px;
+}
+.navbar-username a img {
+    padding-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.navigations {
+    margin-left: 320px;
+}
+
+.navigations ul li {
+    padding: 0 35px;
+}
+
+.navigations ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.contact button {
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: transparent;
+    position: relative;
+    top: -2px;
+    transition: 0.3s;
+}
+
+.contact-button {
+    margin-left: auto;
+}
+
+main {
+    margin: 50px 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.filter-banner {
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-banner {
+    margin: 40px 40px 0 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-banner h5 {
+    font-weight: bolder;
+}
+
+.top-banner img {
+    position: relative;
+    margin-left: auto;
+    top: -3px;
+}
+
+.filters {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-title {
+    color: #1E90FF;
+    font-weight: bolder;
+}
+
+.search-page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.search-bar form input {
+    width: 95%;
+    margin-right: 8px;
+    padding: 9px;
+    border: 2px solid #1E90FF;
+    border-radius: 5px;
+}
+
+.search-bar form button {
+    padding: 9px;
+    border: 2px solid #1E90FF;
+    background-color: transparent;
+    border-radius: 50%;
+    position: relative;
+    top: -1px;
+}
+
+.back-button {
+    background-color: #FFF;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.back-button a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.mentor-detail {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.left-banner {
+    width: 30%;
+    height: 75%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-photo {
+    border: 3px solid #1E90FF;
+    width: 100%;
+    height: 70%;
+    padding: 20px;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.quick-desc {
+    justify-content: center;
+    text-align: center;
+}
+
+.quick-desc h5 {
+    font-weight: bolder;
+}
+
+.quick-desc p {
+    color: #1E90FF;
+}
+
+.right-banner {
+    width: 100%;
+    height: 75%;
+}
+
+.mentor-database {
+    width: 75%;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mentor-data {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.mentor-data svg {
+    width: 30px;
+    height: 30px;
+}
+
+.mentor-data p {
+    position: relative;
+    top: 5px;
+    font-weight: bolder;
+}
+
+.contact-button p {
+    margin-bottom: 0;
+}
+
+.contact-button button {
+    padding: 5px 20px;
+    color: #1E90FF;
+    background-color: transparent;
+    border: 1px solid #1E90FF;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-button button:hover {
+    color: #FFF;
+    background-color: #1E90FF;
+    border: 1px solid transparent;
+}
+
+footer {
+    background-color: #000;
+    margin-top: 100px;
+    height: 60%;
+}
+
+.foot-banner {
+    margin: 0 100px;
+}
+
+.foot-banner h2 {
+    color: #FFF;
+    padding-top: 50px;
+    letter-spacing: 7px;
+}
+
+.foot-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.f-image svg:hover {
+    cursor: pointer;
+}
+
+.web-desc {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 30px;
+    text-align: justify;
+}
+
+.web-desc p {
+    color: #FFF;
+}
+
+.f-contact {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF;
+}
+
+.f-contact p span {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.f-contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.copyright p {
+    color: #FFF;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}

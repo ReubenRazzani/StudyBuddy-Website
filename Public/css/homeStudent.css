@@ -1,0 +1,445 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: #fff;
+    height: 100px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header nav {
+    height: 100px;
+    margin: 0 100px;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.navbar-username {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-username a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;  
+    color: #000;
+    position: relative;
+    top: -3px;
+}
+.navbar-username a img {
+    padding-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.navigations {
+    margin-left: 320px;
+}
+
+.navigations ul li {
+    padding: 0 35px;
+}
+
+.navigations ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.navigations ul li a:hover {
+    color: #1E90FF;
+}
+
+.contact button {
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: transparent;
+    position: relative;
+    top: -2px;
+    transition: 0.3s;
+}
+
+.contact-button {
+    margin-left: auto;
+}
+
+.hero-banner img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.banner-text {
+    background-color: rgba(0, 0, 0, 70%);
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-text h1, h3, h5 {
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.banner-text h1 {
+    padding-top: 100px;
+    padding-bottom: 125px;
+    letter-spacing: 10px;
+}
+
+.banner-text h3 {
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.banner-text h5 {
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+
+.banner-text button {
+    color: #1E90FF;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #1E90FF;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.banner-text button:hover {
+    color: #FFF;
+    background-color: #1E90FF;
+    border: 2px solid transparent;
+}
+
+.features {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 80%;
+}
+
+.features h2 {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.feature-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.f-list {
+    width: 400px;
+    padding: 50px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.f-list:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.f-list:not(:hover) {
+    transform: scale(1.0);
+    transition: 0.3s;
+}
+
+.f-list img {
+    width: 200px;
+    height: 200px;
+}
+
+.f-list h5 {
+    padding-top: 20px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.f-list p {
+    padding-top: 10px;
+    color: #000;
+}
+
+.user-wallet {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 70%;
+}
+
+.user-wallet h2 {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.wallet-banner {
+    margin: 0 auto;
+    width: 800px;
+    height: 30%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #1E90FF;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.e-wallet-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.top-wallet {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+
+.top-wallet svg {
+    width: 30px;
+    height: 30px;
+}
+
+.top-wallet h5 {
+    color: #000;
+    position: relative;
+    top: 3px;
+}
+
+.bottom-wallet {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-wallet h5 {
+    color: #000;
+    font-weight: bolder;
+    position: relative;
+    bottom: 5px;
+}
+
+.wallet-action {
+    margin: 20px auto 0 auto;
+    width: 800px;
+    height: 15%;
+    border-radius: 20px;
+    background-color: #1E90FF;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.topup-action {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 15px 30px;
+}
+
+.topup-icon {
+    border-radius: 50%;
+    background-color: #FFF;
+    padding: 7px;
+}
+
+.topup-icon button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.topup-icon button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.topup-text h5 {
+    font-weight: bolder;
+    position: relative;
+    top: 11px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: -30%;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 30% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 21%;
+    border-radius: 5px;
+}
+
+.modal-content input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.modal-content button {
+    padding: 5px 10px;
+    color: #1E90FF;
+    background-color: #FFF;
+    border: 1px solid #1E90FF;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.modal-content button:hover {
+    color: #FFF;
+    background-color: #1E90FF;
+    border: 1px solid transparent;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.faq {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 60%;  
+}
+
+.faq h2 {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#accordionExample {
+    border-radius: 20px 20px 0 0 !important;
+} 
+
+.accordion-item {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.accordion-header {
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.accordion-body {
+    border-radius: 0 0 20px 20px !important;
+}
+
+footer {
+    background-color: #000;
+    margin-top: 100px;
+    height: 60%;
+}
+
+.foot-banner {
+    margin: 0 100px;
+}
+
+.foot-banner h2 {
+    color: #FFF;
+    padding-top: 50px;
+    letter-spacing: 7px;
+}
+
+.foot-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.f-image svg:hover {
+    cursor: pointer;
+}
+
+.web-desc {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 30px;
+    text-align: justify;
+}
+
+.web-desc p {
+    color: #FFF;
+}
+
+.f-contact {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF;
+}
+
+.f-contact p span {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.f-contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.copyright p {
+    color: #FFF;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}

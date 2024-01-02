@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: #fff;
+    height: 100px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header nav {
+    height: 100px;
+    margin: 0 100px;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.navbar-username {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-username a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;  
+    color: #000;
+    position: relative;
+    top: -3px;
+}
+.navbar-username a img {
+    padding-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.navigations {
+    margin-left: 320px;
+}
+
+.navigations ul li {
+    padding: 0 35px;
+}
+
+.navigations ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.navigations ul li a:hover {
+    color: #1E90FF;
+}
+
+.contact button {
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: transparent;
+    position: relative;
+    top: -2px;
+    transition: 0.3s;
+}
+
+.contact-button {
+    margin-left: auto;
+}
+
+.inbox-content {
+    margin: 100px;
+}
+
+.inbox-content .table thead {
+    background-color: #1E90FF;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: -30%;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 30% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 21%;
+    border-radius: 5px;
+}
+
+.modal-content input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.modal-content button {
+    padding: 5px 10px;
+    color: #1E90FF;
+    background-color: #FFF;
+    border: 1px solid #1E90FF;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.modal-content button:hover {
+    color: #FFF;
+    background-color: #1E90FF;
+    border: 1px solid transparent;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    margin-top: 100px;
+    height: 60%;
+}
+
+.foot-banner {
+    margin: 0 100px;
+}
+
+.foot-banner h2 {
+    color: #FFF;
+    padding-top: 50px;
+    letter-spacing: 7px;
+}
+
+.foot-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.f-image svg:hover {
+    cursor: pointer;
+}
+
+.web-desc {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 30px;
+    text-align: justify;
+}
+
+.web-desc p {
+    color: #FFF;
+}
+
+.f-contact {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF;
+}
+
+.f-contact p span {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.f-contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.copyright p {
+    color: #FFF;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
